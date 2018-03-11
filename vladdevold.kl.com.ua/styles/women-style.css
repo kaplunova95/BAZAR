@@ -1,0 +1,8 @@
+.container-filters{
+    display: inline-block;
+    background-color: yellow;
+}
+.container-goods{
+    display: inline-block;
+    background-color: lightgreen;
+}

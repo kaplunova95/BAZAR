@@ -1,0 +1,31 @@
+
+@media (max-width:1490px){
+
+    .menu-icon{
+        display: block;
+    }
+    #right-menu .menu {
+        display: none;
+    }
+   
+    
+    #right-menu ul.menu > li {
+        float: none;
+    }
+    .border-right {
+        border-right: none!important;
+    }
+    
+    
+        
+    .div-menu{
+        display: inline-block;
+        width: 60px;
+    }
+    .div-menu hr{
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        margin-bottom: 10px;
+    }
+}

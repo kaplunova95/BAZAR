@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main{
+	display: inline-block!important;
+	width: 100%;
+	background-color: #F2F2F2;
+        margin-top: 4%;
+}
+main .div-filters{
+      width: 18%;
+        border: 1px solid black;
+        float: left;
+        margin-left: 2%;
+        margin-top: 1.35%;
+        display: inline-block;
+        position: fixed;
+}
+main .goods-filters{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: blueviolet;
+}
+main .img-shoes{
+	float: right;
+	width: 78%;
+        display: inline-block;
+        margin-bottom: 2%;
+        border: 1px solid green;
+}
+main .product-description{
+    display: inline-block;
+    border: 1px solid pink;
+}
+main .img-shoes-hover{
+/*	display: none;*/
+        display: inline-block;
+	padding-top: 4.5%;
+	top: 12.4%;
+	width: 17.9%;
+	position: absolute;
+	background-color: white;
+	opacity: 0.6;
+	height: 37%;
+}
+main .description{
+        float: right;
+        width: 70%;
+}
+main .description button{
+    margin: 2% 4%;
+    color: #9494b8;
+    background-color: white;
+    width: 30%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #9494b8;
+    border-radius: 20px;
+}
+main .description button:hover{
+    color:#3d3d5c;
+    border: 2px solid #3d3d5c;
+}
+main .description a{
+    text-decoration: none;
+    color: #9494b8;
+}
+main .DB{
+        margin-left: 4%;
+        margin-bottom: 7%;
+        font-size: 1.5em;
+}
+main .img-shoes-hover a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border: 2px solid black;
+	margin-left: 10%;
+	font-size: 30px;
+}
+main .img-shoes-hover a:hover{
+	background-color: #DA81F5;
+	transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+}
+main .view{
+	padding: 4% 12%;
+}
+main .add-cart{
+	padding: 4% 11%;
+}
+main .img-shoes:hover .img-shoes-hover{
+	display: block;
+	padding-top: 4.5%;
+	top: 12.4%;
+	width: 17.9%;
+	position: absolute;
+	background-color: white;
+	opacity: 0.6;
+	height: 37%;
+}
+main .img-shoesM{
+	display: inline-block;
+	width: 22.5%;
+	margin: 1%;
+}
+main .img-shoes-hoverM{
+	display: none;
+	padding-top: 4.5%;
+	top: 12.4%;
+	width: 17.9%;
+	position: absolute;
+	background-color: white;
+	opacity: 0.6;
+	height: 37%;
+}
+main .img-shoes-hoverM a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border: 2px solid black;
+	margin-left: 10%;
+	font-size: 30px;
+}
+main .img-shoes-hoverM a:hover{
+	background-color: #DA81F5;
+	transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+}
+main .view{
+	padding: 4% 12%;
+}
+main .add-cart{
+	padding: 4% 11%;
+}
+main .img-shoesM:hover .img-shoes-hoverM{
+	display: block;
+	padding-top: 4.5%;
+	top: 56.2%;
+	width: 17.9%;
+	position: absolute;
+	background-color: white;
+	opacity: 0.6;
+	height: 37%;
+}
+main #firstM{
+	margin-left: 1.5%;
+}
+main .img-shoesM p{
+	text-align: center;
+	font-size: 24px;
+}

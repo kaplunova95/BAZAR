@@ -1,0 +1,40 @@
+.container-spring{
+    background-image: url(../img/menspring.jpg);
+    background-color: #c7b39b; 
+    background-position-y: 70%;
+}
+.container-spring h1{
+    margin-left: 35%;
+    padding-top: 9%;
+    padding-bottom: 5%;
+    font-size: 2em;
+}
+.container-spring li{
+    display: inline-block;
+    margin-right: 8%;
+}
+.left-marg{
+    margin-left: 23%;
+}
+.container-spring a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.container-spring a:hover{
+    color: #4B3F52;
+    transition: 0.5s;
+    font-size: 1.25em;
+}
+.container-spring p{
+   font-size: 1.1em;
+   padding-bottom: 2%;
+   margin-top: 2%;
+   text-align: justify;
+   margin-left: 23%;
+   margin-right: 22%;
+}
+.container-spring p:hover{
+    color: #585858;
+}

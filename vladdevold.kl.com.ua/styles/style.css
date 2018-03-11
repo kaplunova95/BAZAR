@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+        background-color: #d9d9d9;
+	border-bottom: 2px solid black;
+        position: fixed;
+        z-index: 1;
+}
+
+.menu-icon{
+    display: none;
+    text-align: right;
+} 
+
+.menu-icon svg g {
+    fill: black;
+}
+
+
+article{
+    background-color: white;
+    padding-top: 4%;
+}
+.logo{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 48px;
+}
+header .navhed-menu li:first-child{
+	margin-left: 23%;
+}
+#header-menu{
+	display: inline-block;
+	width: 70%;
+}
+.navhed-menu li{
+	display: inline-block;
+}
+.navhed-menu li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.navhed-menu li a:hover{
+	border-bottom: 2px solid black;
+}
+.div-drop{
+	display: none;
+        background-color: transparent;
+	opacity: 0.8;
+	position: absolute;
+	top: /*105%*/80%;
+	padding-top: 1%;
+	width: 100%;
+	left: 0;
+	border-bottom: 2px solid black;
+      
+	position: absolute;
+	z-index: 2;
+}
+/*.div-drop a{
+	margin: 0% 1%;
+	text-decoration: none;
+}*/
+.div-drop img{
+	width: 15%;
+	border: 1px solid black;
+}
+.div-drop a:hover .dark-block{
+	opacity: 0.5;
+}
+.div-drop2{
+	width: 100%;
+	background-color: #666666;
+        padding-left: 23%;
+}
+.div-drop a{
+	margin-left: 2%;
+}
+.dark-block:hover{
+/*	background-color: #6d055e;
+	opacity: 0.2;*/
+}
+.dark-block{
+        display: inline-block;
+/*	width: 15.1%;
+	height: 92%;
+	position: absolute;
+	z-index: 1;
+	background-color:  transparent;
+	opacity: 0.2;
+	top: 6%;*/
+}
+.dark{
+	left: 16%;
+}
+.dark1{
+	left: 33.2%;
+}
+.dark2{
+	left: 50.5%;
+}
+.dark3{
+	left: 67.8%;
+}
+.div-drop img:hover{
+	background-color: black;
+	z-index: 1;
+}
+.div-drop .a {
+	margin-left: 16%;
+}
+.navhed-menu li + li{
+	margin-left: 4%;
+}
+.entry{
+	display: inline-block;
+}
+.div-menu{
+    display: none!important;
+}
+.div-menu a{
+    text-decoration: none;
+}
+.div-menu a hr{
+    display: none;
+}
+.right-menu li {
+	display: inline-block;
+}
+#right-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#right-menu ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+#right-menu ul.menu > li {
+    float: left;
+    position: relative;
+}
+#right-menu ul.menu > li > a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 6px ;
+}
+.border-right{
+    border-right: 2px solid grey;
+}
+#right-menu ul.menu > li > a:hover {
+    color: grey;
+}
+#right-menu ul.submenu {
+    display: none;
+    position: absolute;
+    padding-top: 15px;
+    right: 1.9%;
+    background-color: transparent;
+}
+#right-menu ul.submenu > li {
+    display: block;
+}
+#right-menu ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#right-menu ul.submenu > li > a:hover {
+    text-decoration: none;
+    color: gray;
+}
+#right-menu ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+#right-menu{
+	display: inline-block;
+	width: 16%;
+}
+
+
+footer{
+	width: 100%;
+	border-top: 2px solid black;
+	background-color:  #d9d9d9;
+}
+.div-cont{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.div-cont div{
+	display: inline-block;
+}
+.div-cont div + div{
+	margin-left: 2%;
+}
+.div-cont .facebook{
+	margin-left: 37.5%;
+}
+.div-cont i{
+	color: black;
+}
+.div-cont i:hover{
+	color: #999999;
+	border-bottom: 2px solid #999999;
+}
+.nav-menu li{
+	display: inline-block;
+}
+.nav-menu li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.nav-menu li a:hover{
+	border-bottom: 2px solid black;
+}
+.nav-menu li + li{
+	margin-left: 3%;
+}
+footer li:first-child{
+	margin-left: 29%;
+}
+.copyright {
+	margin-left: 40%;
+}
